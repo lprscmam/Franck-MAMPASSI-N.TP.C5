@@ -13,19 +13,20 @@
 		      
 		      <div class="row">
 		      	<div class="span5">
+				<div class="well well-small">
 					<?php
 						$a=new Area('bas gauche');
 						$a->display($c);
 						?>
-		      		
+		      	</div>	
 		      	</div>	      	
 		      	<div class="span5">
-				
+				<div class="well well-small">
 				<?php
 				$a=new Area('bas droite');
 				$a->display($c);
 				?>
-		      		
+		      	</div>	
 		      	</div>
 		      </div>
 		      
