@@ -5,7 +5,7 @@
 		       
 				
 				
-				 colonne 1
+				 <h3>COLONNE 1</h3>
 				<?php
 				$a=new Area('contenue');
 				$a->display($c);
@@ -18,7 +18,7 @@
 		        
 				
 				
-				colonne 2
+				<h3>COLONNE 2</h3>
 				<?php
 				$a=new Area('contenue1');
 				$a->display($c);
@@ -30,7 +30,7 @@
 				<div class="span4">
 		        
 				
-				colone 3
+				<h3>COLONNE 3</h3>
 				<?php
 				$a=new Area('contenue2');
 				$a->display($c);
@@ -47,7 +47,7 @@
 		      	<div class="span12">
 				
 					
-				Barre inferieure avec une taille de 12px
+				<h4>BARRE BASSE AVEC UNE TAILLE DE 12</h4>
 				<?php
 				$a=new Area('contenue3');
 				$a->display($c);
